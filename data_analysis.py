@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -142,5 +142,3 @@ plt.figure(figsize=(10, 6))
 sns.heatmap(data.corr(), annot=True, cmap='coolwarm')
 plt.title('Correlation Matrix')
 plt.show()
->>>>>>> d976347a415a596324263d8411c241c6d447c8a7
-eoo
