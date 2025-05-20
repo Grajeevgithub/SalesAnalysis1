@@ -90,6 +90,9 @@ print(data.isnull().sum())
 
 # Drop rows with missing values
 data = data.dropna()
+print("\nMissing values in each column:")
+print(data.isnull().sum())
+
 
 # Remove duplicate rows
 data = data.drop_duplicates()
