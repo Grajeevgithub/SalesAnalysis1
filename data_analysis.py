@@ -99,6 +99,7 @@ print("\nAfter cleaning, missing values and duplicates:")
 print("Missing values:\n", data.isnull().sum())
 print("Duplicate rows:", data.duplicated().sum())
 
+
 # Step 4: Basic Data Analysis
 # Summary statistics
 print("\nSummary Statistics:")
